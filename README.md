@@ -6,8 +6,8 @@ A Toggl API client based on Guzzle PHP
 ## Features
 
 * supports complete version 8 API with API Key authentication (thanks to @dirx)
- * As the Toggl 6 Api will be deprecated on 1st september 2013 its removed in v0.8. 
 * supports Toggl Report Api v2 (thanks to @dirx)
+* now based on guzzle 6 (thanks to @echron)
 
 ## Installation
 
@@ -19,7 +19,7 @@ Simply run this to install it:
 ## Usage
     
 To use the Toggl API Client simply instantiate the client with the api key.
-More information on the key available at https://www.toggl.com/public/api#api_token
+More information on the key and authentication available at https://github.com/toggl/toggl_api_docs/blob/master/chapters/authentication.md
 
 ```php
 <?php
@@ -78,7 +78,7 @@ You can look at the services.json for details on what methods are available and 
 
 ## Todo
 
-- [ ] Add some examples
+- [ ] Add some more examples
 - [ ] Add tests
 - [ ] Add some Response models
 
